@@ -69,9 +69,9 @@ public class RandomNumbers{
     c = (int)(1+3*Math.random());
     out.println("Random number (1-3):\t" + a + "\t" + b + "\t" + c);
 
-    a = (int)(5+5*Math.random());
-    b = (int)(5+5*Math.random());
-    c = (int)(5+5*Math.random());
+    a = (int)(5+6*Math.random());
+    b = (int)(5+6*Math.random());
+    c = (int)(5+6*Math.random());
     out.println("Random number (5-10):\t" + a + "\t" + b + "\t" + c);
 
   }
