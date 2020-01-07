@@ -20,7 +20,7 @@ public class YachtDice{
       showDice(r4);
       showDice(r5);
       showDice(r6);
-      allSame = (r1 == r2 && r2 == r3 && r3 == r4 && r4 == r5);
+      allSame = (r1 == r2 && r2 == r3 && r3 == r4 && r4 == r5 && r5 == r6);
 
     } while (!allSame);
     out.println("The Yacht!");
